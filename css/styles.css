@@ -530,6 +530,7 @@ button {
   margin-bottom: 16px;
 }
 .footer-box {
+  margin-left: 80px;
   font-weight: 500;
   font-size: 16px;
   color: #fff;
@@ -539,10 +540,11 @@ button {
   letter-spacing: 0.02em;
 }
 .footer-email-form {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
 }
 .footer-input {
+  margin-right: 80px;
   border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;
@@ -560,8 +562,6 @@ button {
 }
 .footer-input::placeholder {
   color: #fff;
-}
-.footer-btn-icon {
 }
 .footer-send-btn {
   display: flex;
@@ -777,7 +777,5 @@ button {
 }
 .form-wrapper-checkbox {
   margin-bottom: 24px;
-}
-.castom-checkbox-icon {
 }
 /* endregion */
