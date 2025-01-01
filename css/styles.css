@@ -616,6 +616,14 @@ button {
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -100%);
 }
+.form-user {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
+}
 .modal {
   position: absolute;
   top: 50%;
