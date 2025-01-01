@@ -559,7 +559,9 @@ button {
   color: #fff;
 }
 .footer-input::placeholder {
-  fill: #fff;
+  color: #fff;
+}
+.footer-btn-icon {
 }
 .footer-send-btn {
   display: flex;
