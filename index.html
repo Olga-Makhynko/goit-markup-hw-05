@@ -473,11 +473,32 @@
             </li>
           </ul>
         </div>
+        <div class="footer-box">
+          <p class="footer-box-text">Subscribe</p>
+          <form class="footer-form">
+            <label for="email-form" class="footer-email-form">
+              <input
+                class="footer-input"
+                type="text"
+                name="email-form"
+                id="email-form"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+          </form>
+          <button class="footer-send-btn" type="submit">
+            Subscribe
+            <svg class="footer-btn-icon" width="24" height="24">
+              <use href="./images/icons.svg#telegram"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </footer>
     <!-- #endregion -->
     <!-- region modal -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="modal-close-icon" width="24" height="24">
@@ -540,7 +561,7 @@
               required
             ></textarea>
           </div>
-          <div class="">
+          <div class="form-wrapper-checkbox">
             <input
               class="checkbox visually-hidden"
               type="checkbox"
@@ -550,7 +571,7 @@
             />
             <label class="user-comment-checkbox" for="user-comment-checkbox">
               <span class="castom-checkbox">
-                <svg width="16" height="16" class="castom-checkbox-icon">
+                <svg width="10" height="8" class="castom-checkbox-icon">
                   <use href="./images/icons.svg#chec"></use>
                 </svg>
               </span>
