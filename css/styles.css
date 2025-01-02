@@ -807,11 +807,9 @@ button {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox:checked + .user-comment-checkbox .castom-checkbox {
-  border: none;
-  border-radius: 2px;
   background-color: #404bbf;
+  border: none;
   fill: #f4f4fd;
-  border: 1px solid #404bbf;
 }
 .user-comment-checkbox {
   font-weight: 400;
