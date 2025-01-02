@@ -665,8 +665,11 @@ button {
   padding: 72px 24px 24px 24px;
 }
 .modal-close-icon {
-  fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-close-icon:hover,
+.modal-close-icon:focus {
+  fill: #2e2f42;
 }
 .modal-text {
   margin-bottom: 16px;
@@ -754,10 +757,10 @@ button {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input:focus + svg {
+.form-icon:focus-within {
   fill: #4d5ae5;
 }
-.modal-form-icon:hover {
+.modal-form-icon:hover .modal-form-icon {
   fill: #4d5ae5;
 }
 
